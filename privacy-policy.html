@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Clock Extension</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1e293b;
+      background: #f8fafc;
+      padding: 40px 16px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.08);
+      padding: 48px 56px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #0f172a;
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    p { margin-bottom: 14px; color: #374151; }
+
+    ul {
+      margin: 8px 0 14px 20px;
+      color: #374151;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: #f0fdf4;
+      border-left: 3px solid #22c55e;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+      color: #166534;
+      font-size: 15px;
+    }
+
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Privacy Policy</h1>
+    <p class="meta">Clock Extension &nbsp;·&nbsp; Last updated: April 14, 2026</p>
+
+    <div class="highlight">
+      <strong>Summary:</strong> Clock Extension does not collect, transmit, or share
+      any personal data. All settings are stored locally on your device and never
+      leave your browser.
+    </div>
+
+    <h2>1. What the Extension Does</h2>
+    <p>
+      Clock Extension displays the current time (HH:MM:SS) as a small floating
+      widget on web pages. Users can customise the text color, background color,
+      and toggle the widget on or off through a settings popup.
+    </p>
+
+    <h2>2. Data We Collect</h2>
+    <p>
+      Clock Extension does <strong>not</strong> collect any personal information.
+      The only data stored by the extension is your preferences:
+    </p>
+    <ul>
+      <li>Clock widget text color</li>
+      <li>Clock widget background color</li>
+      <li>Whether the widget is enabled or disabled</li>
+    </ul>
+    <p>
+      These preferences are stored exclusively using
+      <code>chrome.storage.local</code> — a browser storage area that is local
+      to your device and never sent to any external server.
+    </p>
+
+    <h2>3. Data Sharing</h2>
+    <p>
+      We do not sell, trade, rent, or otherwise share any data with third parties.
+      No analytics, advertising, or tracking services are used in this extension.
+    </p>
+
+    <h2>4. Network Activity</h2>
+    <p>
+      Clock Extension makes <strong>no network requests</strong> of any kind.
+      It does not contact any remote server, API, or service. The current time is
+      read directly from your device's local clock via the browser's
+      built-in <code>Date</code> API.
+    </p>
+
+    <h2>5. Permissions Used</h2>
+    <ul>
+      <li>
+        <strong>storage</strong> — used solely to persist your color and
+        visibility preferences between browser sessions. No other data is stored.
+      </li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Clock Extension does not collect any information from anyone, including
+      children under the age of 13.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>
+      If this privacy policy changes, the updated version will be published at
+      this URL with a revised "Last updated" date. Continued use of the extension
+      after any changes constitutes acceptance of the new policy.
+    </p>
+
+    <h2>8. Contact</h2>
+    <p>
+      If you have questions about this privacy policy, please open an issue on the
+      extension's repository or contact:
+      <a href="mailto:gamheu@gmail.com">gamheu@gmail.com</a>
+    </p>
+
+    <footer>
+      Clock Extension &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp;
+      This extension is not affiliated with Google LLC.
+    </footer>
+
+  </div>
+</body>
+</html>
